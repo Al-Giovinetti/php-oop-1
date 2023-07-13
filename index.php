@@ -16,5 +16,7 @@ class Movie {
     }
 
     //METODI
-
+    public function getTitle(){
+        return $this->title;
+    }
 }
