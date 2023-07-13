@@ -8,7 +8,7 @@ class Movie {
     public $year;
 
     //COSTRUTTORE
-    function __costructor($_title,$_genre,$_plot,$_year){
+    function __costructor(String $_title, String $_genre, String $_plot, Int $_year){
         $this->title = $_title;
         $this->genre = $_genre;
         $this->plot = $_plot;
