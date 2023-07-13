@@ -7,7 +7,7 @@ class Movie {
     public $year;
 
     //COSTRUTTORE
-    function __costructor(String $_title, String $_genre, Int $_year){
+    function __construct(String $_title, String $_genre, Int $_year){
         $this->title = $_title;
         $this->genre = $_genre;
         $this->year = $_year;
